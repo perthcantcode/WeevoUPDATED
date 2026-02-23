@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en"> <!--English Bp-->
+<head>
+<meta charset="UTF-8"> <!--for sepcial char's such as emoji etc-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive for mobile phones -->
+
+<title>Website Evolution</title>
+<link rel="stylesheet" href="UI.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+
+<div class="marquee-wrap">
+    <div class="marquee-track">
+    <span class="marquee-item highlight">HTML5</span>
+    <span class="marquee-item highlight">CSS3</span>
+    <span class="marquee-item highlight">JavaScript</span>
+    <span class="marquee-item highlight">Intersection Observer API</span>
+    <span class="marquee-item highlight">DOM Manipulation</span>
+    <span class="marquee-item highlight">Responsive Design</span>
+    <span class="marquee-item highlight">Google Fonts</span>
+
+    <span class="marquee-item highlight">HTML5</span>
+    <span class="marquee-item highlight">CSS3</span>
+    <span class="marquee-item highlight">JavaScript</span>
+    <span class="marquee-item highlight">Intersection Observer API</span>
+    <span class="marquee-item highlight">DOM Manipulation</span>
+    <span class="marquee-item highlight">Responsive Design</span>
+    <span class="marquee-item highlight">Google Fonts</span>
+    </div>
+</div>
+<div class="marquee-wrap">
+    <div class="marquee-track reverse">
+    <span class="marquee-item highlight">HTML5</span>
+    <span class="marquee-item highlight">CSS3</span>
+    <span class="marquee-item highlight">JavaScript</span>
+    <span class="marquee-item highlight">Intersection Observer API</span>
+    <span class="marquee-item highlight">DOM Manipulation</span>
+    <span class="marquee-item highlight">Responsive Design</span>
+    <span class="marquee-item highlight">Google Fonts</span>
+
+    <span class="marquee-item highlight">HTML5</span>
+    <span class="marquee-item highlight">CSS3</span>
+    <span class="marquee-item highlight">JavaScript</span>
+    <span class="marquee-item highlight">Intersection Observer API</span>
+    <span class="marquee-item highlight">DOM Manipulation</span>
+    <span class="marquee-item highlight">Responsive Design</span>
+    <span class="marquee-item highlight">Google Fonts</span>
+    </div>
+</div>
+</head>
+<body>
+<!--html hero class-->
+<section class="hero">
+<p class="hero-label">How the Internet Grew Up</p><br>
+<h1 id="newfont"><em id="title">WEE</em>V[]</h1><br>
+<br><br><h1>The <em>Web</em> Evolution<br>Through Time</h1><br><br>
+<p><em>From a single text page at CERN in 1991 to AI that builds its own interfaces the story of how the internet changed everything.</em></p>
+</section>
+
+<div class="wrap"> <!--main contecnt-->
+<div class="stats" id="stats">
+    <div class="stat">
+    <span class="stat-number" data-target="35">0</span>
+    <span class="stat-label">Years of the Web</span>
+    </div>
+    <div class="stat">
+    <span class="stat-number" data-target="5.5" data-suffix="B">0</span>
+    <span class="stat-label">Internet Users</span>
+    </div>
+    <div class="stat">
+    <span class="stat-number" data-target="200" data-suffix="M+">0</span>
+    <span class="stat-label">Active Websites</span>
+    </div>
+    <div class="stat">
+    <span class="stat-number" data-target="1.98" data-suffix="B">0</span>
+    <span class="stat-label">Total Websites ever built</span>
+    </div>
+</div>
+
+<div class="timeline"> <!-- walkthrough mismo-->
+
+    <!-- E1 & L -->
+    <div class="era left">
+
+    <div class="card-col">
+        <div class="card">
+        <div class="tag">Web 1.0 · Read-Only Era</div>
+        <h3>It Began With a Single Page</h3>
+        <p>On August 6, 1991, <strong style="color: #09e058;">Tim Berners-Lee</strong> published the world's first website at CERN. It was plain text — no images, no color, no interaction. Just words and links.</p>
+        <p>This was a <strong style="color: #09e058;">read-only</strong> web. You could look, but not touch. Pages were updated manually and rarely. Accessing a page over dial-up could take several minutes.</p>
+        <ul class="facts" ><h3>FACTS</h3>
+            <li>First website: info.cern.ch — still online today</li>
+            <li>Netscape Navigator (1994) brought the web to everyday people</li>
+            <li>Amazon and eBay both launched in 1995 as simple static storefront</li>
+            <li>Dial-up speeds averaged 28–56 kbps — a 3-minute MP3 took over an hour</li>
+        </ul>
+        <div class="pills">
+            <span class="pill">HTML 1.0</span>
+            <span class="pill">Static Pages & Files</span>
+            <span class="pill">Hyperlinks</span>
+            <span class="pill">Netscape</span>
+            <span class="pill">Dial-up</span>
+            <span class="pill">FTP</span>
+        </div>
+        <!-- Button calls the togglePreview() JS function below -->
+        <button class="preview-btn" onclick="togglePreview(this)">
+            <span class="arrow">▾</span> Preview Era
+        </button>
+        <div class="preview">
+            <div class="preview-body">
+                <div class="ai-notice">
+                <span class="ai-badge">✦ AI</span>
+                LIVE PREVIEWS po are generated with assistance from
+                <strong>AI</strong> since kapos na sa time and i just want to add this function.
+            </div>
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab(this,'c1')">Code</button>
+                <button class="tab" onclick="switchTab(this,'s1')">Stats</button>
+                <button class="tab" onclick="openLivePreview('era1')">Live ↗</button>
+            </div>
+            <div id="c1" class="pane active">
+                <div class="code"><span class="cm">&lt;!-- Early 1990s HTML --&gt;</span>
+<span class="kw">&lt;html&gt;</span>
+<span class="kw">&lt;head&gt;</span>
+<span class="kw">&lt;title&gt;</span><span class="str">Worl Wide Web</span><span class="kw">&lt;/title&gt;</span>
+<span class="kw">&lt;/head&gt;</span>
+<span class="kw">&lt;body&gt;</span>
+<span class="kw">&lt;h1&gt;</span><span class="str">Welcome to my Homepage!</span><span class="kw">&lt;/h1&gt;</span>
+<span class="kw">&lt;p&gt;</span><span class="str">Under construction </span><span class="kw">&lt;/p&gt;</span>
+<span class="kw">&lt;a href=</span><span class="str">"about.html"</span><span class="kw">&gt;</span>About Me<span class="kw">&lt;/a&gt;</span>
+<span class="cm">&lt;!-- No CSS. No JS. Just pure HTML. --&gt;</span>
+<span class="kw">&lt;/body&gt;</span>
+<span class="kw">&lt;/html&gt;</span></div>
+            </div>
+            <div id="s1" class="pane">
+                <div class="mini-stats">
+                <div class="mini-stat"><div class="label" style="color: #09e058;">Websites in 1991</div><div class="val">1</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">Daily Internet Users (1995)</div><div class="val">16 M</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">Websites by 1999</div><div class="val">3 M</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">Avg Page Size</div><div class="val">2 KB</div></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="spine">
+        <div class="dot"></div>
+        <span class="year">1991–1999</span>
+    </div>
+    <div class="empty-col"></div>
+    </div>
+
+<!-- E2  R -->
+<div class="era right">
+<div class="empty-col"></div>
+<div class="spine">
+    <div class="dot"></div>
+    <span class="year">1999–2004</span>
+</div>
+<div class="card-col">
+    <div class="card">
+    <div class="tag">The Bubble Era · Dot-Com Era</div>
+    <h3>Marquees, Flash & the Dot-Com Crash</h3>
+    <p>Money flooded the internet. Any company with ".com" in its name got investment. This created an era of <strong style="color: #09e058;">neon backgrounds, blinking text, animated GIFs</strong> , and hit counters.</p>
+    <p><strong style="color: #09e058;">Macromedia Flash</strong> let designers build animated, interactive experiences — but they took forever to load and couldn't be read by search engines. The bubble burst in 2000.</p>
+    <ul class="facts"><h3>FACTS</h3>
+        <li>NASDAQ lost 78% of its value between 2000–2002</li>
+        <li>GeoCities hosted 38 million user-made pages at its peak</li>
+        <li>Flash was installed on 98% of all desktop computers by 2002</li>
+        <li>Google quietly launched in 1998 — and survived the crash</li>
+    </ul>
+    <div class="pills">
+        <span class="pill">Macromedia Flash</span>
+        <span class="pill">GIF Animations</span>
+        <span class="pill">GeoCities</span>
+        <span class="pill">Table Layouts</span>
+        <span class="pill">MIDI Audio</span>
+        <span class="pill">Frames</span>
+    </div>
+    <button class="preview-btn" onclick="togglePreview(this)">
+        <span class="arrow">▾</span> Preview Era
+    </button>
+    <div class="preview">
+        <div class="preview-body">
+            <div class="ai-notice">
+            <span class="ai-badge">✦ AI</span>
+            LIVE PREVIEWS po are generated with assistance from
+            <strong>AI</strong> since kapos na sa time and i just want to add this function.
+        </div>
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab(this,'c2')">Code</button>
+            <button class="tab" onclick="switchTab(this,'s2')">Stats</button>
+            <button class="tab" onclick="openLivePreview('era2')">Live ↗</button>
+        </div>
+        <div id="c2" class="pane active">
+            <div class="code"><span class="cm">★★ WELCOME TO MY GOOFY ASS HOMEPAGE ★★</span>
+                
+<span class="kw">&lt;body</span><span class="fn">bgcolor=</span><span class="str">"#000080"</span> <span class="fn">text=</span><span class="str">"#FFFF00"</span>
+<span class="fn">background=</span><span class="str">"stars.gif"</span><br>
+<span class="kw">&lt;center></span>
+        <span class="kw">&lt;marquee </span><span class="fn">scrollamount=</span><span class="str">"5"></span>
+            <span class="str">🌟 HOT SITE — CLICK HERE !!! 🌟</span>
+        <span class="kw">&lt;marquee></span>
+        <span class="kw">&lt;blink></span><span class="str">*** UNDER KONSTRAKSYUN ***</span>
+        <span class="kw">&lt;img </span><span class="fn">src=</span><span class="str">"dancing_baby.gif"</span><span class="fn">width=</span><span class="str">"100"</span>
+<span class="kw">&lt;/center></span><br>
+<span class="kw">&lt;hr</span><span class="fn"> color=</span><span class="str">"red" </span><span class="fn">size=</span><span class="str">"5"></span>
+<span class="kw">&lt;marquee&gt;</span><span class="str">🌟 HOT SITE — CLICK HERE!!! 🌟</span><span class="kw">&lt;/marquee&gt;</span>
+<span class="kw">&lt;blink&gt;</span><span class="str">UNDER CONSTRUCTION</span><span class="kw">&lt;/blink&gt;</span><span class="kw">&lt;blink&gt;</span>
+You are visitor number: <span class="kw">&lt;img </span><span class="fn">src=</span><span class="nm">"counter.cgi?id=12345"</span>
+Best viewed in: Internet Explorer 5</div>
+            </div>
+
+        <div id="s2" class="pane">
+            <div class="mini-stats">
+            <div class="mini-stat"><div class="label"  style="color: #09e058;">NASDAQ Peak</div><div class="val">5,048 pts</div></div>
+            <div class="mini-stat"><div class="label"  style="color: #09e058;">NASDAQ Low</div><div class="val">1,114 pts</div></div>
+            <div class="mini-stat"><div class="label"  style="color: #09e058;">GeoCities Pages</div><div class="val">38 Million</div></div>
+            <div class="mini-stat"><div class="label"  style="color: #09e058;">Dot-com companies that failed</div><div class="val">900+</div></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+
+    <!--E3 L -->
+    <div class="era left">
+
+    <div class="card-col">
+        <div class="card">
+        <div class="tag">Web 2.0  · The Participation Era</div>
+        <h3>The Social Web</h3>
+        <p>The web stopped being something you <em  style="color: #09e058;">read</em> and became something you <em  style="color: #09e058;">participated in</em>. <strong  style="color: #09e058;">AJAX</strong> (2005) let pages update content without full reloads — suddenly Gmail, Google Maps, and Facebook felt alive.</p>
+        <p><strong  style="color: #09e058;">YouTube, Twitter, WordPress</strong> — these platforms let ordinary people publish to the world. The term "User Generated Content" was born. <strong  style="color: #09e058;">jQuery</strong> made JavaScript easy for everyone.</p>
+        <ul class="facts"><h3>FACTS</h3>
+            <li>Facebook grew from 1M (2004) to 1 billion users (2012)</li>
+            <li>YouTube's first video was "Me at the Zoo" uploaded April 23, 2005</li>
+            <li>Gmail launched with 1 GB of free storage — 500x more than competitors</li>
+            <li>iPhone launched in 2007 — mobile web began here</li>
+            <li>jQuery was used by 74-77% of all websites as of 2004</li>
+        </ul>
+        <div class="pills">
+            <span class="pill">AJAX</span>
+            <span class="pill">jQuery</span>
+            <span class="pill">CSS2&3</span>
+            <span class="pill">XML</span>
+            <span class="pill">RSS</span>
+            <span class="pill">JSON</span>
+            <span class="pill">WordPress</span>
+            <span class="pill">Youtube</span>
+            <span class="pill">Social Media</span>
+        </div>
+        <button class="preview-btn" onclick="togglePreview(this)">
+            <span class="arrow">▾</span> Preview Era
+        </button>
+        <div class="preview">
+            <div class="preview-body">
+            <div class="ai-notice">
+                <span class="ai-badge">✦ AI</span>
+                LIVE PREVIEWS po are generated with assistance from
+                <strong>AI</strong> since kapos na sa time and i just want to add this function.
+            </div>
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab(this,'c3')">Code</button>
+                <button class="tab" onclick="switchTab(this,'s3')">Stats</button>
+                <button class="tab" onclick="openLivePreview('era3')">Live ↗</button>
+            </div>
+            <div id="c3" class="pane active">
+            <div class="code">
+<span class="cm">// AJAX — update page WITHOUT reloading it</span>
+<span class="cm">// jQuery made this kind of code possible for everyone</span>
+<span class="cm">// Before this, it took 30+ lines of raw JavaScript</span>
+<span class="fn">$</span>.<span class="fn">ajax</span>({
+        <span class="fn">$</span>(document).<span class="fn">ready</span>(function() {
+
+            <span class="fn">$</span>('#load-more').<span class="fn">click</span>function(data) {
+                <span class="fn">$</span>.<span class="fn">get</span><span class="str">('/api/posts?page=2'</span>, function(data) {
+                    <span class="fn">$</span>('#feed').<span class="fn">append</span>(data);
+                    <span class="cm">// Just those new posts get added.</span>
+                    <span class="cm">// The rest of the page stays put.</span>
+                    });
+                });
+
+                <span class="cm">// SMOOT ANIMETSHOONS became 1 linerz</span>
+                <span class="fn">$</span>('.menu').<span class="fn">.slideToggle</span>(300);
+            });</div>
+        </div>
+            <div id="s3" class="pane">
+                <div class="mini-stats">
+                <div class="mini-stat"><div class="label"  style="color: #09e058;">Facebook Users 2012</div><div class="val">1 Billion</div></div>
+                <div class="mini-stat"><div class="label"  style="color: #09e058;">YouTube Views/Day</div><div class="val">4 Billion</div></div>
+                <div class="mini-stat"><div class="label"  style="color: #09e058;">jQuery Usage</div><div class="val">77%</div></div>
+                <div class="mini-stat"><div class="label"  style="color: #09e058;">WordPress-powered sites today</div><div class="val">43%</div></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="spine">
+        <div class="dot"></div>
+        <span class="year">2004–2012</span>
+    </div>
+    <div class="empty-col"></div>
+    </div>
+
+    <!-- E4 R -->
+    <div class="era right">
+    <div class="empty-col"></div>
+    <div class="spine">
+        <div class="dot"></div>
+        <span class="year">2012–2020</span>
+    </div>
+    <div class="card-col">
+        <div class="card">
+        <div class="tag">Mobile-First Era · SPAs & Frameworks</div>
+        <h3>The App-ification of Everything</h3>
+        <p>In 2012, mobile traffic surpassed desktop for the first time. <strong style="color: #09e058;"">Responsive Design</strong> became mandatory — one site that adapts to any screen using CSS media queries.</p>
+        <p>Frameworks like <strong style="color: #09e058;">React</strong> (Facebook, 2013), <strong style="color: #09e058; >Vue</strong>, and <strong style="color: #09e058;"">Angular</strong> turned websites into full applications running in the browser. <strong>Node.js</strong> let JavaScript run on servers too.</p>
+        <ul class="facts"><h3>FACTS</h3>
+            <li>React is now downloaded over 20 million times per week on npm and used by ~40% of all JavaScript applications</li>
+            <li>Google's Mobile-First Indexing became the default in 2021</li>
+            <li>Node.js enabled full-stack JavaScript development for the first time</li>
+            <li>Airbnb, Instagram, and Netflix all run on React</li>
+        </ul>
+        <div class="pills">
+            <span class="pill">React</span>
+            <span class="pill">Vue</span>
+            <span class="pill">Angular</span>
+            <span class="pill">Node.js</span>
+            <span class="pill">REST API's</span>
+            <span class="pill">JSON</span>
+            <span class="pill">PWA</span>
+            <span class="pill">npm</span>
+            <span class="pill">Webpack</span>
+        </div>
+        <button class="preview-btn" onclick="togglePreview(this)">
+            <span class="arrow">▾</span> Preview Era
+        </button>
+        <div class="preview">
+            <div class="preview-body">
+                <div class="ai-notice">
+                <span class="ai-badge">✦ AI</span>
+                LIVE PREVIEWS po are generated with assistance from
+                <strong>AI</strong> since kapos na sa time and i just want to add this function.
+            </div>
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab(this,'c4')">Code</button>
+                <button class="tab" onclick="switchTab(this,'s4')">Stats</button>
+                <button class="tab" onclick="openLivePreview('era4')">Live ↗</button>
+            </div>
+            <div id="c4" class="pane active">
+                <div class="code"><span class="cm">// React — a UI is just a function of its data</span>
+<span class="cm">// When data changes, the UI updates automatically</span>
+<span class="kw">import</span> { useState, useEffect } <span class="kw">from</span> <span class="str">'react'</span>;
+
+<span class="kw">function</span><span class="fn">PostFeed</span>() {
+<span class="kw">const</span> [posts, setPosts] = <span class="fn">useState</span>(<span class="nm">[]</span>);
+<span class="kw">const</span> [loading, setLoading] = <span class="fn">useState</span>(<span class="nm">true</span>);
+
+
+<span class="kw">useEffect(()</span> =&gt; {
+    <span class="cm">// // Fetch posts when the component loads</span>
+<span class="kw">fetch</span> ('/api/posts')
+    <span class="kw">.then</span>(res => res.json())
+    <span class="kw">.then</span>(<span class="nm">data</span> => {
+        setPosts(<span class="nm">data</span>);
+        setLoading(<span class="nm">false</span>);
+    });
+}, []); <span class="cm">// [] = run once on mount</span>
+    <span class="fn">if </span>(loading)<span class="fn"> return </span><span class="kw">&lt;p&gt;</span><span class="str">Loading...</span><span class="kw">&lt;/p&gt;</span>
+    <span class="fn">return </span>posts<span class="kw">.map</span>(<span class="nm">p</span> => <<span class="fn">PostCard</span><span class="kw"> key=</span>{<span class="nm">p.id</span>}<span class="kw"> post=</span>{<span class="nm">p</span>} />);
+}
+</div>
+        </div>
+            <div id="s4" class="pane">
+                <div class="mini-stats">
+                <div class="mini-stat"><div class="label" style="color: #09e058;">Mobile Web Share</div><div class="val">55%</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">React Downloads/Week</div><div class="val">20M+</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">Node.js Developers</div><div class="val">6.3M</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">PWAs in Production</div><div class="val">1M+</div></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+<!-- ── ERA 5 · LEFT SIDE ── -->
+    <div class="era left">
+
+    <div class="card-col">
+        <div class="card">
+        <div class="tag">Web 3.0 & AI · The Intelligent Web</div>
+        <h3>Now the Web Thinks for Itself</h3>
+        <p><strong style="color: #09e058;">Generative AI</strong> entered the browser. Websites can now write text, generate images, answer questions, and even build their own interfaces — all in real time based on what you ask.</p>
+        <p><strong style="color: #09e058;">WebAssembly</strong> let complex desktop software run in the browser tab. <strong style="color: #09e058;">Edge Computing</strong> moved servers closer to users. The line between "website" and "AI assistant" is dissolving.</p>
+        <ul class="facts"><h3>FACTS</h3>
+            <li>ChatGPT hit 100 million users in just 2 months - faster than any product ever</li>
+            <li>GitHub Copilot writes an estimated 46% of code in projects that use it</li>
+            <li>Figma runs entirely in the browser using WebAssembly — no install needed</li>
+            <li>The global AI market is projected to reach $1.8 trillion by 2030</li>
+        </ul>
+        <div class="pills">
+            <span class="pill">AI Agents</span>
+            <span class="pill">ChatGPT</span>
+            <span class="pill">WebAssembly</span>
+            <span class="pill">Edge Computing</span>
+            <span class="pill">Web 3</span>
+            <span class="pill">AI Agents</span>
+            <span class="pill">Rust</span>
+            <span class="pill">Vector DBs</span>
+        </div>
+        <button class="preview-btn" onclick="togglePreview(this)">
+            <span class="arrow">▾</span> Preview Era
+        </button>
+        <div class="preview">
+            <div class="preview-body">
+                <div class="ai-notice">
+                <span class="ai-badge">✦ AI</span>
+                LIVE PREVIEWS po are generated with assistance from
+                <strong>AI</strong> since kapos na sa time and i just want to add this function.
+            </div>
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab(this,'c5')">Code</button>
+                <button class="tab" onclick="switchTab(this,'s5')">Stats</button>
+                <button class="tab" onclick="openLivePreview('era5')">Live ↗</button>
+            </div>
+            <div id="c5" class="pane active">
+                <div class="code"><span class="cm">// The modern web: AI answers your questions in real time</span>
+<span class="cm">// This streams a response token by token — like ChatGPT does</span>
+<span class="kw">import </span> Anthropic <span class="kw">from</span> <span class="str">'@anthropic-ai/sdk'</span>;
+
+<span class="kw">const </span> client = <span class="kw">new </span><span class="fn"> Anthropic </span>();
+
+<span class="kw">async function</span><span class="fn">askAI</span>()(<span class="nm">userQuestion</span>) {
+<span class="cm">// stream: true sends tokens as they're generated</span>
+<span class="kw">const</span><span class="fn">stream </span>= client.<span class="kw">messages</span><span class="nm">.stream</span>({
+    model: <span class="str">'claude-sonnet-4-6'</span>,
+    max_tokens: <span class="str">1024</span>,
+    messages: [
+            { role: <span class="str">'user'</span>, content: <span class="str">userQuestion</span> }
+        ]
+    });
+
+    <span class="cm">// Print each token as it arrives</span>
+    <span class="nm">stream.on</span>('text', (<span class="nm">token</span>) => {
+        <span class="kw">process</span><span class="fn">.stdout</span>.write(<span class="nm">token</span>);
+    }):
+}
+
+<span class="fn">askAI</span>('Explain how the internet works.');
+<span class="cm">// AI generates the page. On demand. Live.</span></div>
+            </div>
+            <div id="s5" class="pane">
+                <div class="mini-stats">
+                <div class="mini-stat"><div class="label" style="color: #09e058;">ChatGPT Users</div><div class="val">180M+</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">GitHub Copilot Developers</div><div class="val">1.8M</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">Code Written by AI (Copilot)</div><div class="val">~46%</div></div>
+                <div class="mini-stat"><div class="label" style="color: #09e058;">Global AI Market 2025</div><div class="val">$184B</div></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="spine">
+        <div class="dot"></div>
+        <span class="year">2020–Today</span>
+    </div>
+
+    <div class="empty-col"></div>
+    </div>
+</div><!-- / END timeline -->
+
+<div class="next"> <!--closing na-->
+    <p class="label">Where Do We Go From Here?</p>
+    <h2>The <em> Post-Browser </em> Web</h2>
+    <p class="body">  Spatial computing, always-on AI companions, brain-computer interfaces, and augmented reality layers draped over the physical world — the next version of the web might not
+    run in a browser at all. It might run in your glasses, your earbuds, or eventually your nervous system. active question is no longer what the web can do.
+    It is what we will choose to do with it.</p>
+</div>
+</div><!-- /ENDWrsap -->
+
+<footer>
+<p>HOW THE WEB GREW UP &nbsp;·&nbsp; 1991 – 2026 &nbsp;·&nbsp; ITEC50 LABORATORY 2 </p><br>
+</footer>
+
+<div class="marquee-wrap credits">
+    <div class="marquee-track">
+    <span class="marquee-item">Made by Ruperth Vesina</span>
+    <span class="marquee-item">ITEC50 · LAB II </span>
+    <span class="marquee-item">Inspired by Roj Portfolio</span>
+    <span class="marquee-item">Design Inspo · Linear.app</span>
+    <span class="marquee-item">© 2026 All Rights Reserved</span>
+
+    <span class="marquee-item">Made by Ruperth Vesina</span>
+    <span class="marquee-item">ITEC50 · LAB II </span>
+    <span class="marquee-item">Inspired by Roj Portfolio</span>
+    <span class="marquee-item">Design Inspo · Linear.app</span>
+    <span class="marquee-item">© 2026 All Rights Reserved</span>
+    </div>
+</div>
+<div class="marquee-wrap credits">
+    <div class="marquee-track reverse">
+    <span class="marquee-item">Made by Ruperth Vesina</span>
+    <span class="marquee-item">ITEC50 · LAB II </span>
+    <span class="marquee-item">Inspired by Roj Portfolio</span>
+    <span class="marquee-item">Design Inspo · Linear.app</span>
+    <span class="marquee-item">© 2026 All Rights Reserved</span>
+
+    <span class="marquee-item">Made by Ruperth Vesina</span>
+    <span class="marquee-item">ITEC50 · LAB II </span>
+    <span class="marquee-item">Inspired by Roj Portfolio</span>
+    <span class="marquee-item">Design Inspo · Linear.app</span>
+    <span class="marquee-item">© 2026 All Rights Reserved</span>
+    </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
